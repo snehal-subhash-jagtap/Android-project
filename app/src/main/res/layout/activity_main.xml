@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="WEL-COME IN COMPUTER DEPARTMENT"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#480ADC"
+         />
+
+    <Button
+        android:id="@+id/buttontyco"
+        android:layout_width="300dp"
+        android:textSize="30dp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:backgroundTint="#09EA13"
+        android:layout_height="160dp"
+        android:text="THIRD YEAR COMPUTER DEPARTMENT" />
+
+</LinearLayout>

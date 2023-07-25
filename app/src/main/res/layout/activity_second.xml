@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_1"
+    android:gravity="center"
+    tools:context=".SecondActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Computer Department"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#E40505"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editTextroll"
+        android:layout_width="350dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#121111"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:hint="Enter Roll No:" />
+
+    <EditText
+        android:id="@+id/editTextname"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:textColor="#121111"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:hint="Enter Name:" />
+
+    <EditText
+        android:id="@+id/editTextpercentage"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:textColor="#121111"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:hint="Enter Percentage:" />
+
+    <EditText
+        android:id="@+id/editTextphone"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#121111"
+        android:textStyle="bold"
+        android:hint="Enter Phone No.:" />
+
+    <EditText
+        android:id="@+id/editTextaddress"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#121111"
+        android:textStyle="bold"
+        android:hint="Enter Address:" />
+
+
+    <Button
+        android:id="@+id/buttoninsert"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Insert"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/buttonupdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Update"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttondelete"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Delete"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttonview"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="View"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttonclear"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Clear" />
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">loginsveri</string>
+    <string name="title">SVERI LOGIN</string>
+    <string name="email_hint">Enter email</string>
+    <string name="password_hint">Enter password</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_cancel">Cancel</string>
+</resources>
